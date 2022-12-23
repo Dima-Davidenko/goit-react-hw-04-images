@@ -17,7 +17,6 @@ const ImageGallery = ({ query }) => {
   const [isLoading, setIsLoading] = useState(false);
   const [showModal, setShowModal] = useState(false);
   const [modalImageIdx, setModalImageIdx] = useState(0);
-  const [scrollBy, setScrollBy] = useState(false);
 
   useEffect(() => {
     if (!query) return;
@@ -48,16 +47,12 @@ const ImageGallery = ({ query }) => {
   }, [currentQuery, page]);
 
   useEffect(() => {
-    if (images.length > PICTURES_ON_PAGE) setScrollBy(true);
+    if (images.length > PICTURES_ON_PAGE)
+      window.scrollBy({
+        top: window.innerHeight - 200,
+        behavior: 'smooth',
+      });
   }, [images]);
-
-  useEffect(() => {
-    window.scrollBy({
-      top: window.innerHeight - 200,
-      behavior: 'smooth',
-    });
-    setScrollBy(false);
-  }, [scrollBy]);
 
   const handleLoadMoreBtnClick = () => {
     setPage(p => p + 1);
