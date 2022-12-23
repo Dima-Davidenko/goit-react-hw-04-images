@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/goit-react-hw-04-images/static/css/main.f7f27802.css",
-    "main.js": "/goit-react-hw-04-images/static/js/main.38be217e.js",
+    "main.js": "/goit-react-hw-04-images/static/js/main.8e7df8bc.js",
     "static/media/roboto-all-500-normal.woff": "/goit-react-hw-04-images/static/media/roboto-all-500-normal.0ab669b7a0d19b178f57.woff",
     "static/media/roboto-all-700-normal.woff": "/goit-react-hw-04-images/static/media/roboto-all-700-normal.a457fde362a540fcadff.woff",
     "static/media/roboto-all-400-normal.woff": "/goit-react-hw-04-images/static/media/roboto-all-400-normal.c5d001fa922fa66a147f.woff",
@@ -36,10 +36,10 @@
     "static/media/roboto-greek-ext-700-normal.woff2": "/goit-react-hw-04-images/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/goit-react-hw-04-images/index.html",
     "main.f7f27802.css.map": "/goit-react-hw-04-images/static/css/main.f7f27802.css.map",
-    "main.38be217e.js.map": "/goit-react-hw-04-images/static/js/main.38be217e.js.map"
+    "main.8e7df8bc.js.map": "/goit-react-hw-04-images/static/js/main.8e7df8bc.js.map"
   },
   "entrypoints": [
     "static/css/main.f7f27802.css",
-    "static/js/main.38be217e.js"
+    "static/js/main.8e7df8bc.js"
   ]
 }
